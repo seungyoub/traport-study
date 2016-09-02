@@ -4,6 +4,6 @@ function titleClick() {
 
 $(function(){
   $('#copyButton').click(function() {
-    $('.copyInput').val($('#input').val())
+    $('.copyInput').val($('#input').val());
   });
 });
