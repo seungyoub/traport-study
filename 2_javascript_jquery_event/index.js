@@ -8,7 +8,8 @@ window.onload = function(){
   };
 
   //EventListener를 이용한 등록
-  //addEventListener의 세번째 인자값으로 이벤트 흐름을 결정한다 (useCapturing)
+  //addEventListener의 인자는 순서대로 이벤트 타입, 콜백함수, 이벤트흐름 세개를 전달함
+  //세번째 인자값으로 이벤트 흐름을 결정한다 (useCapturing)
   //false: Bubbling | true: Capturing
   //Bubbling: 자식 객체부터 순서대로 이벤트 발생
   //Captring: 부모 객체부터 순서대로 이벤트 발생
