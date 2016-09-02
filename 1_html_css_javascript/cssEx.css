@@ -1,0 +1,13 @@
+h1 {
+  color : red;
+}
+
+/* id */
+#me {
+  color : blue;
+}
+
+/* class */
+.other {
+  color : green;
+}
